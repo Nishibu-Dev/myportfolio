@@ -387,20 +387,29 @@ function updateLightboxContent() {
     if (!lightbox || !img) return;
 
     const photo = currentPhotos[currentPhotoIndex];
-    const displaySrc = photo.highSrc || photo.src;
 
     img.style.opacity = '0';
     img.style.transform = 'scale(0.97)';
-    
+
     setTimeout(() => {
-        img.src = displaySrc;
+        // まず通常版を即表示
+        img.src = photo.src;
         img.alt = photo.title;
         if (title) title.textContent = photo.title;
         if (desc) desc.textContent = photo.desc;
-        
+
         img.onload = () => {
             img.style.opacity = '1';
             img.style.transform = 'scale(1)';
+
+            // 通常版表示後にhigh版をバックグラウンドで読み込み→差し替え
+            if (photo.highSrc && photo.highSrc !== photo.src) {
+                const highImg = new Image();
+                highImg.onload = () => {
+                    img.src = photo.highSrc;
+                };
+                highImg.src = photo.highSrc;
+            }
         };
     }, 200);
 }
