@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishibu Anna Photography | Portfolio</title>
+    <meta name="description" content="Nishibu Anna's photography portfolio. Capturing forests, winter mountains, streams, flora, and nature abstracts with a minimalist and chic aesthetic.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Nishibu Anna Photography Logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html?genre=forest">Forests</a></li>
+                <li><a href="gallery.html?genre=winter">Winter</a></li>
+                <li><a href="gallery.html?genre=water">Waterscapes</a></li>
+                <li><a href="gallery.html?genre=flora">Flora</a></li>
+                <li><a href="gallery.html?genre=abstract">Abstract</a></li>
+                <li><a href="about.html" class="nav-disabled">About & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="showcase-grid fade-in">
+            <!-- Forest Genre -->
+            <div class="genre-card" onclick="location.href='gallery.html?genre=forest'">
+                <img src="images/forest_top.jpg" alt="Forests & Woodlands Photography Cover">
+                <div class="genre-card-overlay">
+                    <h2 class="genre-title">FORESTS</h2>
+                    <span class="genre-subtitle">View Gallery</span>
+                </div>
+            </div>
+            
+            <!-- Winter Genre -->
+            <div class="genre-card" onclick="location.href='gallery.html?genre=winter'">
+                <img src="images/winter_top.jpg" alt="Snow & Winter Landscapes Photography Cover">
+                <div class="genre-card-overlay">
+                    <h2 class="genre-title">WINTER</h2>
+                    <span class="genre-subtitle">View Gallery</span>
+                </div>
+            </div>
+
+            <!-- Water Genre -->
+            <div class="genre-card" onclick="location.href='gallery.html?genre=water'">
+                <img src="images/water_top.jpg" alt="Waterscapes & Streams Photography Cover">
+                <div class="genre-card-overlay">
+                    <h2 class="genre-title">WATERSCAPES</h2>
+                    <span class="genre-subtitle">View Gallery</span>
+                </div>
+            </div>
+
+            <!-- Flora Genre -->
+            <div class="genre-card" onclick="location.href='gallery.html?genre=flora'">
+                <img src="images/flora_top.jpg" alt="Flora & Blossoms Photography Cover">
+                <div class="genre-card-overlay">
+                    <h2 class="genre-title">FLORA</h2>
+                    <span class="genre-subtitle">View Gallery</span>
+                </div>
+            </div>
+
+            <!-- Abstract Genre -->
+            <div class="genre-card" onclick="location.href='gallery.html?genre=abstract'">
+                <img src="images/abstract_top.jpg" alt="Nature Abstract & Patterns Photography Cover">
+                <div class="genre-card-overlay">
+                    <h2 class="genre-title">ABSTRACT</h2>
+                    <span class="genre-subtitle">View Gallery</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">&copy; 2026 Nishibu Anna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

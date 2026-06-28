@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact | Nishibu Anna Photography</title>
+    <meta name="description" content="About Nishibu Anna — a nature and landscape photographer based in Aichi, Japan, capturing the quiet beauty of Nagano's highlands and forests.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Nishibu Anna Photography Logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html?genre=forest">Forests</a></li>
+                <li><a href="gallery.html?genre=winter">Winter</a></li>
+                <li><a href="gallery.html?genre=water">Waterscapes</a></li>
+                <li><a href="gallery.html?genre=flora">Flora</a></li>
+                <li><a href="gallery.html?genre=abstract">Abstract</a></li>
+                <li><a href="about.html" class="nav-disabled">About & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-container fade-in">
+
+            <div class="about-image">
+                <img src="images/about_photo.jpg" alt="Nishibu Anna — Photographer">
+            </div>
+
+            <div class="about-content">
+                <h2>Anna Nishibu</h2>
+
+                <div class="about-text">
+                    <p>
+                        I am a nature and landscape photographer based in Aichi, Japan,
+                        drawn to the quiet, fleeting moments that exist between seasons —
+                        the first frost settling on highland grasses, morning fog dissolving
+                        through birch forests, ice crystals refracting light into unexpected color.
+                    </p>
+                    <p>
+                        Much of my work is made in the highlands of Nagano Prefecture —
+                        Kirigamine, Yatsugatake, Tateshina, Norikura, and Kamikochi —
+                        landscapes I return to season after season, learning their rhythms
+                        and waiting for the light.
+                    </p>
+                    <p>
+                        My approach is patient and minimalist. I look for stillness within
+                        complexity, and for the single element that holds a scene together.
+                        I shoot primarily with natural light, at the edges of the day.
+                    </p>
+                </div>
+
+                <div class="contact-section">
+                    <h3>Get in Touch</h3>
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="contact-submit">Send Message</button>
+                    </form>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="500px">500px</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer-text">&copy; 2026 Nishibu Anna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('.contact-submit');
+            btn.textContent = 'Message Sent';
+            btn.style.backgroundColor = 'var(--accent-color)';
+            btn.disabled = true;
+        }
+    </script>
+</body>
+</html>
