@@ -10,7 +10,7 @@ const photoData = {
         },
         {
             id: 'f-7',
-            src: 'images/forest_7_high.png',
+            src: 'images/forest_7.jpg',
             highSrc: 'images/forest_7_high.png',
             title: 'Fading Echo',
             desc: 'An immense ancient tree spreads its gnarled arms wide, standing at the heart of a forest ablaze with the deep amber and rust tones of late autumn, its moss-covered trunk anchored in the quiet morning mist.'
@@ -82,21 +82,21 @@ const photoData = {
         },
         {
             id: 'w-3',
-            src: 'images/winter_3_high.png',
+            src: 'images/winter_3.jpg',
             highSrc: 'images/winter_3_high.png',
             title: 'Drawn by Light',
             desc: 'Bare birch trees cast long, wandering shadows across a vast snow field, their dark lines written by the low winter sun onto the white surface — a fleeting composition drawn anew with each shift of the light.'
         },
         {
             id: 'w-5',
-            src: 'images/winter_5_high.png',
+            src: 'images/winter_5.jpg',
             highSrc: 'images/winter_5_high.png',
             title: 'The Last Warmth',
             desc: 'A hillside forest stands transformed by rime ice, every branch encased in white — yet between the frozen boughs, the faint amber of lingering larch needles glows softly, a last trace of autumn holding quietly within the grip of winter.'
         },
         {
             id: 'w-6',
-            src: 'images/winter_6_high.png',
+            src: 'images/winter_6.jpg',
             highSrc: 'images/winter_6_high.png',
             title: 'Frozen Filigree',
             desc: 'A dense tangle of birch trees, every branch and twig transformed into intricate white lacework by a heavy coat of rime ice, glows against the deep blue shadow of a winter forest — a frozen world rendered in delicate filigree.'
@@ -126,14 +126,14 @@ const photoData = {
         },
         {
             id: 'wa-3',
-            src: 'images/water_3_high.png',
+            src: 'images/water_3.jpg',
             highSrc: 'images/water_3_high.png',
             title: 'Emerald Mist',
             desc: 'The first vivid greens of spring ignite the canopy of an ancient woodland, their luminous reflection shimmering in the still, dark waters below as morning mist weaves silently between the gnarled trunks.'
         },
         {
             id: 'wa-4',
-            src: 'images/water_4_high.png',
+            src: 'images/water_4.jpg',
             highSrc: 'images/water_4_high.png',
             title: 'Autumn Veil',
             desc: 'A tall, silken waterfall descends in a soft white column behind a blaze of golden autumn foliage, its cool waters rushing powerfully past the warm amber leaves clinging to the dark canyon wall beside it.'
@@ -172,7 +172,7 @@ const photoData = {
         },
         {
             id: 'ab-9',
-            src: 'images/abstract_9_high.png',
+            src: 'images/abstract_9.jpg',
             highSrc: 'images/abstract_9_high.png',
             title: 'Lines of Silence',
             desc: 'The frozen surface of a lake fractures into slow, wandering lines — each crack a quiet drawing made by the ice itself, tracing an abstract map of tension and release across the pale, crystalline plain.'
@@ -200,14 +200,14 @@ const photoData = {
         },
         {
             id: 'ab-8',
-            src: 'images/abstract_8_high.png',
+            src: 'images/abstract_8.jpg',
             highSrc: 'images/abstract_8_high.png',
             title: 'The Last Leaf',
             desc: 'Golden autumn leaves lie scattered across the dark, glassy surface of a frozen pond — nearly all of them sealed within the ice, their shapes preserved like pressed specimens. Only one rests quietly on top, as if granted a final moment of freedom before the season closes.'
         },
         {
             id: 'ab-7',
-            src: 'images/abstract_7_high.png',
+            src: 'images/abstract_7.jpg',
             highSrc: 'images/abstract_7_high.png',
             title: "Earth's Architecture",
             desc: 'Carved by millennia of erosion into sweeping layers of pale grey and burnt sienna, the quiet geometry of the mountainside suggests both immense geological time and a painterly abstraction — a handful of solitary trees standing small at their base.'
