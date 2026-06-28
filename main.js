@@ -156,7 +156,7 @@ const photoData = {
         },
         {
             id: 'fl-2',
-            src: 'images/flora_2_high.png',
+            src: 'images/flora_2.jpg',
             highSrc: 'images/flora_2_high.png',
             title: 'Dawn of Light',
             desc: 'Before the world fully wakes, a gentle pre-dawn light filters softly through a cascading veil of weeping cherry blossoms — each pale cluster suspended in stillness, luminous and fragile, holding the quiet breath between darkness and day.'
@@ -314,7 +314,7 @@ function initGallery(gridElement) {
         const item = document.createElement('div');
         item.classList.add('gallery-item');
         item.innerHTML = `
-            <img src="${photo.src}" alt="${photo.title}">
+            <img src="${photo.src}" alt="${photo.title}" loading="lazy">
             <div class="gallery-item-info">
                 <h3 class="gallery-item-title">${photo.title}</h3>
                 <p class="gallery-item-desc">${photo.desc}</p>
