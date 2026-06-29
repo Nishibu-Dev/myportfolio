@@ -15,7 +15,7 @@ const photoData = {
             midSrc: 'images/forest_7_mid.jpg',
             highSrc: 'images/forest_7_high.jpg',
             title: 'Fading Echo',
-            desc: 'An immense ancient tree spreads its gnarled arms wide, standing at the heart of a forest ablaze with the deep amber and rust tones of late autumn, its moss-covered trunk anchored in the quiet morning mist.'
+            desc: 'An immense ancient tree spreads its gnarled arms wide, standing at the heart of a forest ablaze with the deep amber and rust tones of late autumn, its great trunk anchored in the quiet morning mist.'
         },
         {
             id: 'f-3',
@@ -31,7 +31,7 @@ const photoData = {
             midSrc: 'images/forest_5_mid.jpg',
             highSrc: 'images/forest_5_high.jpg',
             title: 'The Meadow Guardian',
-            desc: 'A striking dual-trunk birch tree stands sentinel on a grassy green hillside as morning fog rolls through the valley behind.'
+            desc: 'A striking dual-trunk birch tree stands sentinel on a grassy green hillside as morning fog drifts across the slope beside it.'
         },
         {
             id: 'f-2',
@@ -39,7 +39,7 @@ const photoData = {
             midSrc: 'images/forest_2_mid.jpg',
             highSrc: 'images/forest_2_high.jpg',
             title: 'Where Autumn Meets Winter',
-            desc: 'Bare birch trees stand in quiet contrast.'
+            desc: 'Golden larch trees blaze with the last color of autumn while frost silently whitens the ground below — warmth and cold meeting at the edge of the season.'
         },
         {
             id: 'f-1',
@@ -131,7 +131,7 @@ const photoData = {
             midSrc: 'images/water_1_mid.jpg',
             highSrc: 'images/water_1_high.jpg',
             title: 'Ancient Trees',
-            desc: 'A quiet forest brook winds through a lush moss-covered floor, framed by the towering mottled trunks of ancient birch trees disappearing into the mist.'
+            desc: 'A quiet forest brook winds through a lush moss-covered floor, framed by the towering mottled trunks of ancient trees disappearing into the mist.'
         },
         {
             id: 'wa-2',
@@ -155,7 +155,7 @@ const photoData = {
             midSrc: 'images/water_4_mid.jpg',
             highSrc: 'images/water_4_high.jpg',
             title: 'Autumn Veil',
-            desc: 'A tall, silken waterfall descends in a soft white column behind a blaze of golden autumn foliage, its cool waters rushing powerfully past the warm amber leaves clinging to the dark canyon wall beside it.'
+            desc: 'A tall, silken waterfall descends in a soft white column, its cool presence set against a blaze of golden autumn foliage that glows warmly in the foreground.'
         }
     ],
     flora: [
@@ -223,7 +223,7 @@ const photoData = {
             midSrc: 'images/abstract_4_mid.jpg',
             highSrc: 'images/abstract_4_high.jpg',
             title: 'Last Trace',
-            desc: 'A sinuous white vein of cracked ice traces an enigmatic path across a dark lake surface, while a handful of fallen autumn leaves lie quietly nearby, lending a note of melancholy.'
+            desc: 'A sinuous silken pattern drifts across the dark surface of a still pond — its origin unknown, carried quietly by an unseen current — while a handful of fallen autumn leaves lie nearby, lending a note of melancholy.'
         },
         {
             id: 'ab-8',
@@ -247,7 +247,7 @@ const photoData = {
             midSrc: 'images/abstract_5_mid.jpg',
             highSrc: 'images/abstract_5_high.jpg',
             title: 'Trinity in Texture',
-            desc: "A bold diagonal composition unites three textures: vivid green moss, raw grey rock face, and the soft blur of a waterfall's flow dissolving into white mist."
+            desc: 'A bold diagonal composition unites three textures: vivid green moss, raw grey rock face, and the silken flow of a waterfall rendered in soft white by a long exposure.'
         },
         {
             id: 'ab-6',
