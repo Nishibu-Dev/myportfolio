@@ -168,7 +168,6 @@ main {
     aspect-ratio: 3 / 2;
     overflow: hidden;
     background-color: var(--bg-color);
-    border: 1px solid var(--border-color);
     cursor: pointer;
     display: flex;
     justify-content: center;
