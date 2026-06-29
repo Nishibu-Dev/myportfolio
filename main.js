@@ -419,30 +419,38 @@ function updateLightboxContent() {
 
     const photo = currentPhotos[currentPhotoIndex];
 
+    // テキストは即時更新
+    if (title) title.textContent = photo.title;
+    if (desc) desc.textContent = photo.desc;
+
+    // まずフェードアウト
     img.style.opacity = '0';
     img.style.transform = 'scale(0.97)';
 
-    setTimeout(() => {
-        // まず中解像度版を即表示
-        img.src = photo.midSrc || photo.src;
+    // 新しい画像をプリロードしてから差し替え（前画像が残って見える問題を防ぐ）
+    const midSrc = photo.midSrc || photo.src;
+    const preload = new Image();
+    preload.onload = () => {
+        img.src = midSrc;
         img.alt = photo.title;
-        if (title) title.textContent = photo.title;
-        if (desc) desc.textContent = photo.desc;
 
-        img.onload = () => {
-            img.style.opacity = '1';
-            img.style.transform = 'scale(1)';
+        // フェードイン
+        img.style.opacity = '1';
+        img.style.transform = 'scale(1)';
 
-            // 通常版表示後にhigh版をバックグラウンドで読み込み→差し替え
-            if (photo.highSrc && photo.highSrc !== photo.src) {
-                const highImg = new Image();
-                highImg.onload = () => {
+        // mid表示後にhigh版をバックグラウンドで読み込み→差し替え
+        if (photo.highSrc && photo.highSrc !== midSrc) {
+            const highImg = new Image();
+            highImg.onload = () => {
+                // まだ同じ写真を表示中のときだけ差し替え
+                if (img.src.includes(midSrc.split('/').pop())) {
                     img.src = photo.highSrc;
-                };
-                highImg.src = photo.highSrc;
-            }
-        };
-    }, 200);
+                }
+            };
+            highImg.src = photo.highSrc;
+        }
+    };
+    preload.src = midSrc;
 }
 
 function showNextPhoto() {
