@@ -23,7 +23,7 @@ const photoData = {
             midSrc: 'images/forest_3_mid.jpg',
             highSrc: 'images/forest_3_high.jpg',
             title: 'Awaking Tree',
-            desc: 'Ancient green trees emerge from a soft blanket of low-lying fog in a quiet, sun-kissed meadow at dawn.'
+            desc: 'Tall trees emerge from a soft blanket of low-lying fog in a quiet, sun-kissed meadow at dawn.'
         },
         {
             id: 'f-5',
@@ -47,7 +47,7 @@ const photoData = {
             midSrc: 'images/forest_1_mid.jpg',
             highSrc: 'images/forest_1_high.jpg',
             title: 'Illuminated Silence',
-            desc: 'Ethereal white birches stand shrouded in dense autumn mist, surrounded by the warm, quiet colors of falling foliage.'
+            desc: 'On a misty, rain-soft morning, a single beam of light breaks through for just a moment — illuminating ethereal white birches against the dark forms of surrounding trees, while the autumn foliage ignites briefly in warm color before the light fades away.'
         },
         {
             id: 'f-6',
@@ -55,7 +55,7 @@ const photoData = {
             midSrc: 'images/forest_6_mid.jpg',
             highSrc: 'images/forest_6_high.jpg',
             title: 'Silent Glow',
-            desc: 'A powerful morning sunbeam cuts through the shadowy trunks of an ancient, moss-covered subalpine woodland.'
+            desc: 'A powerful morning sunbeam cuts through the shadowy trunks of a moss-covered subalpine woodland.'
         },
         {
             id: 'f-4',
@@ -130,8 +130,8 @@ const photoData = {
             src: 'images/water_1.jpg',
             midSrc: 'images/water_1_mid.jpg',
             highSrc: 'images/water_1_high.jpg',
-            title: 'Ancient Trees',
-            desc: 'A quiet forest brook winds through a lush moss-covered floor, framed by the towering mottled trunks of ancient trees disappearing into the mist.'
+            title: 'Rhythm and Flow',
+            desc: 'Towering trunks rise in quiet rhythm from a lush moss-covered floor, while a still forest brook winds slowly between them — two kinds of stillness, one rooted, one moving.'
         },
         {
             id: 'wa-2',
@@ -147,7 +147,7 @@ const photoData = {
             midSrc: 'images/water_3_mid.jpg',
             highSrc: 'images/water_3_high.jpg',
             title: 'Emerald Mist',
-            desc: 'The first vivid greens of spring ignite the canopy of an ancient woodland, their luminous reflection shimmering in the still, dark waters below as morning mist weaves silently between the gnarled trunks.'
+            desc: 'The first vivid greens of spring ignite the canopy of a primeval woodland, their luminous reflection shimmering in the still, dark waters below as morning mist weaves silently between the gnarled trunks.'
         },
         {
             id: 'wa-4',
